@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /workspaces/hidmouse/vpk/build
 include CMakeFiles/pspMouse.vpk.dir/progress.make
 
 CMakeFiles/pspMouse.vpk:
-	vita-mksfoex -s TITLE_ID=PSPMOUSE0 pspMouse param.sfo
+	vita-mksfoex -s TITLE_ID=PSPMOUSE0 VitaKeyMouse param.sfo
 	vita-pack-vpk -s param.sfo -b eboot.bin pspMouse.vpk
 
 pspMouse.vpk: CMakeFiles/pspMouse.vpk

@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /workspaces/hidmouse/vpk/build
 include CMakeFiles/vpksend.dir/progress.make
 
 CMakeFiles/vpksend:
-	curl -T VitaKeyMouse.vpk ftp://$(PSVITAIP):1337/ux0:/
+	curl -T pspMouse.vpk ftp://$(PSVITAIP):1337/ux0:/
 
 vpksend: CMakeFiles/vpksend
 vpksend: CMakeFiles/vpksend.dir/build.make

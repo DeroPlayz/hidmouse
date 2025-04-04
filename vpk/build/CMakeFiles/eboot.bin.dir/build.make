@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /workspaces/hidmouse/vpk/build
 include CMakeFiles/eboot.bin.dir/progress.make
 
 CMakeFiles/eboot.bin:
-	vita-make-fself VitaKeyMouse.velf eboot.bin
+	vita-make-fself pspMouse.velf eboot.bin
 
 eboot.bin: CMakeFiles/eboot.bin
 eboot.bin: CMakeFiles/eboot.bin.dir/build.make

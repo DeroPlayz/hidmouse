@@ -22,8 +22,6 @@ psp2/kernel/sysmem.h
 psp2/kernel/threadmgr.h
 -
 
-/workspaces/hidmouse/vpk/debugScreenFont.c
-
 /workspaces/hidmouse/vpk/main.c
 stdio.h
 -
