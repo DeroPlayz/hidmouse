@@ -4,9 +4,9 @@ set(CMAKE_SYSTEM_NAME "Generic")
 set(CMAKE_C_COMPILER "arm-vita-eabi-gcc")
 set(CMAKE_CXX_COMPILER "arm-vita-eabi-g++")
 
-project(pspMouse)
-set(TITLE_ID "PSPMOUSE0")
-set(TITLE_NAME "pspMouse")
+project(VitaKeyMouse)
+set(TITLE_ID "VKBM")
+set(TITLE_NAME "VitaKeyMouse")
 
 set(CMAKE_C_FLAGS "-Wl,-q -Wall -O3 -std=gnu99")
 set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -std=c++11 -fno-rtti -fno-exceptions")

@@ -124,19 +124,6 @@ send/fast:
 .PHONY : send/fast
 
 #=============================================================================
-# Target rules for targets named pspMouse.vpk
-
-# Build rule for target.
-pspMouse.vpk: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pspMouse.vpk
-.PHONY : pspMouse.vpk
-
-# fast build rule for target.
-pspMouse.vpk/fast:
-	$(MAKE) -f CMakeFiles/pspMouse.vpk.dir/build.make CMakeFiles/pspMouse.vpk.dir/build
-.PHONY : pspMouse.vpk/fast
-
-#=============================================================================
 # Target rules for targets named vpksend
 
 # Build rule for target.
@@ -148,6 +135,19 @@ vpksend: cmake_check_build_system
 vpksend/fast:
 	$(MAKE) -f CMakeFiles/vpksend.dir/build.make CMakeFiles/vpksend.dir/build
 .PHONY : vpksend/fast
+
+#=============================================================================
+# Target rules for targets named VitaKeyMouse.vpk
+
+# Build rule for target.
+VitaKeyMouse.vpk: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VitaKeyMouse.vpk
+.PHONY : VitaKeyMouse.vpk
+
+# fast build rule for target.
+VitaKeyMouse.vpk/fast:
+	$(MAKE) -f CMakeFiles/VitaKeyMouse.vpk.dir/build.make CMakeFiles/VitaKeyMouse.vpk.dir/build
+.PHONY : VitaKeyMouse.vpk/fast
 
 #=============================================================================
 # Target rules for targets named eboot.bin
@@ -163,30 +163,30 @@ eboot.bin/fast:
 .PHONY : eboot.bin/fast
 
 #=============================================================================
-# Target rules for targets named pspMouse.velf
+# Target rules for targets named VitaKeyMouse.velf
 
 # Build rule for target.
-pspMouse.velf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pspMouse.velf
-.PHONY : pspMouse.velf
+VitaKeyMouse.velf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VitaKeyMouse.velf
+.PHONY : VitaKeyMouse.velf
 
 # fast build rule for target.
-pspMouse.velf/fast:
-	$(MAKE) -f CMakeFiles/pspMouse.velf.dir/build.make CMakeFiles/pspMouse.velf.dir/build
-.PHONY : pspMouse.velf/fast
+VitaKeyMouse.velf/fast:
+	$(MAKE) -f CMakeFiles/VitaKeyMouse.velf.dir/build.make CMakeFiles/VitaKeyMouse.velf.dir/build
+.PHONY : VitaKeyMouse.velf/fast
 
 #=============================================================================
-# Target rules for targets named pspMouse.elf
+# Target rules for targets named VitaKeyMouse.elf
 
 # Build rule for target.
-pspMouse.elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pspMouse.elf
-.PHONY : pspMouse.elf
+VitaKeyMouse.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VitaKeyMouse.elf
+.PHONY : VitaKeyMouse.elf
 
 # fast build rule for target.
-pspMouse.elf/fast:
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/build
-.PHONY : pspMouse.elf/fast
+VitaKeyMouse.elf/fast:
+	$(MAKE) -f CMakeFiles/VitaKeyMouse.elf.dir/build.make CMakeFiles/VitaKeyMouse.elf.dir/build
+.PHONY : VitaKeyMouse.elf/fast
 
 debugScreenFont.obj: debugScreenFont.c.obj
 
@@ -194,7 +194,7 @@ debugScreenFont.obj: debugScreenFont.c.obj
 
 # target to build an object file
 debugScreenFont.c.obj:
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/debugScreenFont.c.obj
+	$(MAKE) -f CMakeFiles/VitaKeyMouse.elf.dir/build.make CMakeFiles/VitaKeyMouse.elf.dir/debugScreenFont.c.obj
 .PHONY : debugScreenFont.c.obj
 
 debugScreenFont.i: debugScreenFont.c.i
@@ -203,7 +203,7 @@ debugScreenFont.i: debugScreenFont.c.i
 
 # target to preprocess a source file
 debugScreenFont.c.i:
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/debugScreenFont.c.i
+	$(MAKE) -f CMakeFiles/VitaKeyMouse.elf.dir/build.make CMakeFiles/VitaKeyMouse.elf.dir/debugScreenFont.c.i
 .PHONY : debugScreenFont.c.i
 
 debugScreenFont.s: debugScreenFont.c.s
@@ -212,7 +212,7 @@ debugScreenFont.s: debugScreenFont.c.s
 
 # target to generate assembly for a file
 debugScreenFont.c.s:
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/debugScreenFont.c.s
+	$(MAKE) -f CMakeFiles/VitaKeyMouse.elf.dir/build.make CMakeFiles/VitaKeyMouse.elf.dir/debugScreenFont.c.s
 .PHONY : debugScreenFont.c.s
 
 main.obj: main.c.obj
@@ -221,7 +221,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/main.c.obj
+	$(MAKE) -f CMakeFiles/VitaKeyMouse.elf.dir/build.make CMakeFiles/VitaKeyMouse.elf.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -230,7 +230,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/main.c.i
+	$(MAKE) -f CMakeFiles/VitaKeyMouse.elf.dir/build.make CMakeFiles/VitaKeyMouse.elf.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -239,7 +239,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/main.c.s
+	$(MAKE) -f CMakeFiles/VitaKeyMouse.elf.dir/build.make CMakeFiles/VitaKeyMouse.elf.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -250,12 +250,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... send"
-	@echo "... rebuild_cache"
-	@echo "... pspMouse.vpk"
 	@echo "... vpksend"
+	@echo "... VitaKeyMouse.vpk"
 	@echo "... eboot.bin"
-	@echo "... pspMouse.velf"
-	@echo "... pspMouse.elf"
+	@echo "... rebuild_cache"
+	@echo "... VitaKeyMouse.velf"
+	@echo "... VitaKeyMouse.elf"
 	@echo "... debugScreenFont.obj"
 	@echo "... debugScreenFont.i"
 	@echo "... debugScreenFont.s"
