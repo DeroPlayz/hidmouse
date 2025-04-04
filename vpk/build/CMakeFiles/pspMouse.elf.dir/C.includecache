@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/hidmouse/vpk/debugScreen.h
+stdio.h
+-
+string.h
+-
+stdarg.h
+-
+inttypes.h
+-
+psp2/display.h
+-
+psp2/kernel/sysmem.h
+-
+psp2/kernel/threadmgr.h
+-
+
+/workspaces/hidmouse/vpk/debugScreenFont.c
+
+/workspaces/hidmouse/vpk/main.c
+stdio.h
+-
+psp2/ctrl.h
+-
+taihen.h
+-
+debugScreen.h
+/workspaces/hidmouse/vpk/debugScreen.h
+
