@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /workspaces/hidmouse/vpk/build
 include CMakeFiles/send.dir/progress.make
 
 CMakeFiles/send:
-	curl -T eboot.bin ftp://$(PSVITAIP):1337/ux0:/app/VKBM/
+	curl -T eboot.bin ftp://$(PSVITAIP):1337/ux0:/app/pspMouse0/
 
 send: CMakeFiles/send
 send: CMakeFiles/send.dir/build.make

@@ -5,7 +5,7 @@ set(CMAKE_C_COMPILER "arm-vita-eabi-gcc")
 set(CMAKE_CXX_COMPILER "arm-vita-eabi-g++")
 
 project(VitaKeyMouse)
-set(TITLE_ID "VKBM")
+set(TITLE_ID "pspMouse0")
 set(TITLE_NAME "VitaKeyMouse")
 
 set(CMAKE_C_FLAGS "-Wl,-q -Wall -O3 -std=gnu99")
