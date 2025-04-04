@@ -1,0 +1,8 @@
+/workspaces/hidmouse/vpk/build/CMakeFiles/edit_cache.dir
+/workspaces/hidmouse/vpk/build/CMakeFiles/send.dir
+/workspaces/hidmouse/vpk/build/CMakeFiles/rebuild_cache.dir
+/workspaces/hidmouse/vpk/build/CMakeFiles/pspMouse.vpk.dir
+/workspaces/hidmouse/vpk/build/CMakeFiles/vpksend.dir
+/workspaces/hidmouse/vpk/build/CMakeFiles/eboot.bin.dir
+/workspaces/hidmouse/vpk/build/CMakeFiles/pspMouse.velf.dir
+/workspaces/hidmouse/vpk/build/CMakeFiles/pspMouse.elf.dir
