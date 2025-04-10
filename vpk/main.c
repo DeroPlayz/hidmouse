@@ -63,7 +63,7 @@ void wait_key_press()
 
   while (1) {
     sceCtrlPeekBufferPositive(0, &pad, 1);
-    if (pad.buttons & SCE_CTRL_CIRCLE)
+    if (pad.buttons & SCE_CTRL_START)
       break;
     sceKernelDelayThread(100 * 1000);
   }

@@ -1,6 +1,6 @@
 # Hashes of file build rules.
-2d6a51f4c7c935b464e4b2691d390176 CMakeFiles/eboot.bin
-113bf12964dc9faa8708e8e4544c9d0c CMakeFiles/pspMouse.velf
-dd0dee29c83fc9093c6727f6ef796071 CMakeFiles/pspMouse.vpk
-814204301622723c1d71cb381bfa4dd1 CMakeFiles/send
-54df996ff925e2d9e19fbc6355c0307b CMakeFiles/vpksend
+b8c0720222b9634a2f799f9c761903c4 CMakeFiles/eboot.bin
+7c9c7c3356686af1ed804b03a188c05f CMakeFiles/send
+ebe090bb89fc6306314529cdb0c06bfd CMakeFiles/vitaKeyMouse.velf
+3df2f58821777fc8cb2dc30f4f0691bd CMakeFiles/vitaKeyMouse.vpk
+3d1daacb590982627f89abd4d075372d CMakeFiles/vpksend

@@ -44,9 +44,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/send.dir/DependInfo.cmake"
-  "CMakeFiles/pspMouse.vpk.dir/DependInfo.cmake"
+  "CMakeFiles/vitaKeyMouse.vpk.dir/DependInfo.cmake"
   "CMakeFiles/vpksend.dir/DependInfo.cmake"
   "CMakeFiles/eboot.bin.dir/DependInfo.cmake"
-  "CMakeFiles/pspMouse.velf.dir/DependInfo.cmake"
-  "CMakeFiles/pspMouse.elf.dir/DependInfo.cmake"
+  "CMakeFiles/vitaKeyMouse.velf.dir/DependInfo.cmake"
+  "CMakeFiles/vitaKeyMouse.elf.dir/DependInfo.cmake"
   )

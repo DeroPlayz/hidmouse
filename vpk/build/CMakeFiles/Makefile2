@@ -53,10 +53,10 @@ CMAKE_BINARY_DIR = /workspaces/hidmouse/vpk/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/pspMouse.vpk.dir/all
+all: CMakeFiles/vitaKeyMouse.vpk.dir/all
 all: CMakeFiles/eboot.bin.dir/all
-all: CMakeFiles/pspMouse.velf.dir/all
-all: CMakeFiles/pspMouse.elf.dir/all
+all: CMakeFiles/vitaKeyMouse.velf.dir/all
+all: CMakeFiles/vitaKeyMouse.elf.dir/all
 
 .PHONY : all
 
@@ -67,11 +67,11 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/send.dir/clean
-clean: CMakeFiles/pspMouse.vpk.dir/clean
+clean: CMakeFiles/vitaKeyMouse.vpk.dir/clean
 clean: CMakeFiles/vpksend.dir/clean
 clean: CMakeFiles/eboot.bin.dir/clean
-clean: CMakeFiles/pspMouse.velf.dir/clean
-clean: CMakeFiles/pspMouse.elf.dir/clean
+clean: CMakeFiles/vitaKeyMouse.velf.dir/clean
+clean: CMakeFiles/vitaKeyMouse.elf.dir/clean
 
 .PHONY : clean
 
@@ -103,37 +103,37 @@ CMakeFiles/send.dir/clean:
 .PHONY : CMakeFiles/send.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pspMouse.vpk.dir
+# Target rules for target CMakeFiles/vitaKeyMouse.vpk.dir
 
 # All Build rule for target.
-CMakeFiles/pspMouse.vpk.dir/all: CMakeFiles/eboot.bin.dir/all
-	$(MAKE) -f CMakeFiles/pspMouse.vpk.dir/build.make CMakeFiles/pspMouse.vpk.dir/depend
-	$(MAKE) -f CMakeFiles/pspMouse.vpk.dir/build.make CMakeFiles/pspMouse.vpk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/hidmouse/vpk/build/CMakeFiles --progress-num= "Built target pspMouse.vpk"
-.PHONY : CMakeFiles/pspMouse.vpk.dir/all
+CMakeFiles/vitaKeyMouse.vpk.dir/all: CMakeFiles/eboot.bin.dir/all
+	$(MAKE) -f CMakeFiles/vitaKeyMouse.vpk.dir/build.make CMakeFiles/vitaKeyMouse.vpk.dir/depend
+	$(MAKE) -f CMakeFiles/vitaKeyMouse.vpk.dir/build.make CMakeFiles/vitaKeyMouse.vpk.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/hidmouse/vpk/build/CMakeFiles --progress-num= "Built target vitaKeyMouse.vpk"
+.PHONY : CMakeFiles/vitaKeyMouse.vpk.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pspMouse.vpk.dir/rule: cmake_check_build_system
+CMakeFiles/vitaKeyMouse.vpk.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/hidmouse/vpk/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pspMouse.vpk.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vitaKeyMouse.vpk.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/hidmouse/vpk/build/CMakeFiles 0
-.PHONY : CMakeFiles/pspMouse.vpk.dir/rule
+.PHONY : CMakeFiles/vitaKeyMouse.vpk.dir/rule
 
 # Convenience name for target.
-pspMouse.vpk: CMakeFiles/pspMouse.vpk.dir/rule
+vitaKeyMouse.vpk: CMakeFiles/vitaKeyMouse.vpk.dir/rule
 
-.PHONY : pspMouse.vpk
+.PHONY : vitaKeyMouse.vpk
 
 # clean rule for target.
-CMakeFiles/pspMouse.vpk.dir/clean:
-	$(MAKE) -f CMakeFiles/pspMouse.vpk.dir/build.make CMakeFiles/pspMouse.vpk.dir/clean
-.PHONY : CMakeFiles/pspMouse.vpk.dir/clean
+CMakeFiles/vitaKeyMouse.vpk.dir/clean:
+	$(MAKE) -f CMakeFiles/vitaKeyMouse.vpk.dir/build.make CMakeFiles/vitaKeyMouse.vpk.dir/clean
+.PHONY : CMakeFiles/vitaKeyMouse.vpk.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/vpksend.dir
 
 # All Build rule for target.
-CMakeFiles/vpksend.dir/all: CMakeFiles/pspMouse.vpk.dir/all
+CMakeFiles/vpksend.dir/all: CMakeFiles/vitaKeyMouse.vpk.dir/all
 	$(MAKE) -f CMakeFiles/vpksend.dir/build.make CMakeFiles/vpksend.dir/depend
 	$(MAKE) -f CMakeFiles/vpksend.dir/build.make CMakeFiles/vpksend.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/hidmouse/vpk/build/CMakeFiles --progress-num= "Built target vpksend"
@@ -160,7 +160,7 @@ CMakeFiles/vpksend.dir/clean:
 # Target rules for target CMakeFiles/eboot.bin.dir
 
 # All Build rule for target.
-CMakeFiles/eboot.bin.dir/all: CMakeFiles/pspMouse.velf.dir/all
+CMakeFiles/eboot.bin.dir/all: CMakeFiles/vitaKeyMouse.velf.dir/all
 	$(MAKE) -f CMakeFiles/eboot.bin.dir/build.make CMakeFiles/eboot.bin.dir/depend
 	$(MAKE) -f CMakeFiles/eboot.bin.dir/build.make CMakeFiles/eboot.bin.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/hidmouse/vpk/build/CMakeFiles --progress-num= "Built target eboot.bin"
@@ -184,58 +184,58 @@ CMakeFiles/eboot.bin.dir/clean:
 .PHONY : CMakeFiles/eboot.bin.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pspMouse.velf.dir
+# Target rules for target CMakeFiles/vitaKeyMouse.velf.dir
 
 # All Build rule for target.
-CMakeFiles/pspMouse.velf.dir/all: CMakeFiles/pspMouse.elf.dir/all
-	$(MAKE) -f CMakeFiles/pspMouse.velf.dir/build.make CMakeFiles/pspMouse.velf.dir/depend
-	$(MAKE) -f CMakeFiles/pspMouse.velf.dir/build.make CMakeFiles/pspMouse.velf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/hidmouse/vpk/build/CMakeFiles --progress-num= "Built target pspMouse.velf"
-.PHONY : CMakeFiles/pspMouse.velf.dir/all
+CMakeFiles/vitaKeyMouse.velf.dir/all: CMakeFiles/vitaKeyMouse.elf.dir/all
+	$(MAKE) -f CMakeFiles/vitaKeyMouse.velf.dir/build.make CMakeFiles/vitaKeyMouse.velf.dir/depend
+	$(MAKE) -f CMakeFiles/vitaKeyMouse.velf.dir/build.make CMakeFiles/vitaKeyMouse.velf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/hidmouse/vpk/build/CMakeFiles --progress-num= "Built target vitaKeyMouse.velf"
+.PHONY : CMakeFiles/vitaKeyMouse.velf.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pspMouse.velf.dir/rule: cmake_check_build_system
+CMakeFiles/vitaKeyMouse.velf.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/hidmouse/vpk/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pspMouse.velf.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vitaKeyMouse.velf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/hidmouse/vpk/build/CMakeFiles 0
-.PHONY : CMakeFiles/pspMouse.velf.dir/rule
+.PHONY : CMakeFiles/vitaKeyMouse.velf.dir/rule
 
 # Convenience name for target.
-pspMouse.velf: CMakeFiles/pspMouse.velf.dir/rule
+vitaKeyMouse.velf: CMakeFiles/vitaKeyMouse.velf.dir/rule
 
-.PHONY : pspMouse.velf
+.PHONY : vitaKeyMouse.velf
 
 # clean rule for target.
-CMakeFiles/pspMouse.velf.dir/clean:
-	$(MAKE) -f CMakeFiles/pspMouse.velf.dir/build.make CMakeFiles/pspMouse.velf.dir/clean
-.PHONY : CMakeFiles/pspMouse.velf.dir/clean
+CMakeFiles/vitaKeyMouse.velf.dir/clean:
+	$(MAKE) -f CMakeFiles/vitaKeyMouse.velf.dir/build.make CMakeFiles/vitaKeyMouse.velf.dir/clean
+.PHONY : CMakeFiles/vitaKeyMouse.velf.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pspMouse.elf.dir
+# Target rules for target CMakeFiles/vitaKeyMouse.elf.dir
 
 # All Build rule for target.
-CMakeFiles/pspMouse.elf.dir/all:
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/depend
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/hidmouse/vpk/build/CMakeFiles --progress-num=1,2,3 "Built target pspMouse.elf"
-.PHONY : CMakeFiles/pspMouse.elf.dir/all
+CMakeFiles/vitaKeyMouse.elf.dir/all:
+	$(MAKE) -f CMakeFiles/vitaKeyMouse.elf.dir/build.make CMakeFiles/vitaKeyMouse.elf.dir/depend
+	$(MAKE) -f CMakeFiles/vitaKeyMouse.elf.dir/build.make CMakeFiles/vitaKeyMouse.elf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/hidmouse/vpk/build/CMakeFiles --progress-num=1,2,3 "Built target vitaKeyMouse.elf"
+.PHONY : CMakeFiles/vitaKeyMouse.elf.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pspMouse.elf.dir/rule: cmake_check_build_system
+CMakeFiles/vitaKeyMouse.elf.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/hidmouse/vpk/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pspMouse.elf.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vitaKeyMouse.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/hidmouse/vpk/build/CMakeFiles 0
-.PHONY : CMakeFiles/pspMouse.elf.dir/rule
+.PHONY : CMakeFiles/vitaKeyMouse.elf.dir/rule
 
 # Convenience name for target.
-pspMouse.elf: CMakeFiles/pspMouse.elf.dir/rule
+vitaKeyMouse.elf: CMakeFiles/vitaKeyMouse.elf.dir/rule
 
-.PHONY : pspMouse.elf
+.PHONY : vitaKeyMouse.elf
 
 # clean rule for target.
-CMakeFiles/pspMouse.elf.dir/clean:
-	$(MAKE) -f CMakeFiles/pspMouse.elf.dir/build.make CMakeFiles/pspMouse.elf.dir/clean
-.PHONY : CMakeFiles/pspMouse.elf.dir/clean
+CMakeFiles/vitaKeyMouse.elf.dir/clean:
+	$(MAKE) -f CMakeFiles/vitaKeyMouse.elf.dir/build.make CMakeFiles/vitaKeyMouse.elf.dir/clean
+.PHONY : CMakeFiles/vitaKeyMouse.elf.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

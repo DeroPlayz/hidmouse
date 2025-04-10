@@ -147,7 +147,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=pspMouse
+CMAKE_PROJECT_NAME:STATIC=vitaKeyMouse
 
 //ranlib
 CMAKE_RANLIB:PATH=/usr/local/vitasdk/bin/arm-vita-eabi-ranlib
@@ -251,6 +251,12 @@ pspMouse_BINARY_DIR:STATIC=/workspaces/hidmouse/vpk/build
 
 //Value Computed by CMake
 pspMouse_SOURCE_DIR:STATIC=/workspaces/hidmouse/vpk
+
+//Value Computed by CMake
+vitaKeyMouse_BINARY_DIR:STATIC=/workspaces/hidmouse/vpk/build
+
+//Value Computed by CMake
+vitaKeyMouse_SOURCE_DIR:STATIC=/workspaces/hidmouse/vpk
 
 
 ########################
